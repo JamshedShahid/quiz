@@ -1,0 +1,33 @@
+.bar{
+    /* align-items: center;*/
+    justify-content: center; 
+    display: flex;
+    
+
+
+    
+}
+
+
+
+
+@media  (max-width: 620px) {
+    .bar {
+        
+        display: block;
+        padding: 2rem;
+        margin: 0 5rem;
+        /* align-items: center; */
+    }
+
+  }
+  @media  (max-width: 480px) {
+    .bar {
+        
+        display: block;
+        padding: 2rem;
+        margin: 0 ;
+        /* align-items: center; */
+    }
+
+  }

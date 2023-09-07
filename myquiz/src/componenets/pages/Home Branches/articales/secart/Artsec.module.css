@@ -1,0 +1,40 @@
+.bar{
+    /* align-items: center;*/
+    justify-content: center; 
+    display: flex;
+    
+    padding-top: 10px;
+    
+
+
+    
+}
+
+.fas{
+    padding-top: 10px;
+}
+
+
+@media  (max-width: 620px) {
+    .bar {
+        
+        display: block;
+        padding: 2rem;
+        margin: 0 5rem;
+        /* align-items: center; */
+    }
+    .fas{
+        padding-top: 20px;
+    }
+
+  }
+  @media  (max-width: 480px) {
+    .bar {
+        
+        display: block;
+        padding: 2rem;
+        margin: 0 ;
+        /* align-items: center; */
+    }
+
+  }
